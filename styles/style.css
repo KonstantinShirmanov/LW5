@@ -1,3 +1,9 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	background-color: #fff;
 	font-family: Verdana, Areal;
@@ -7,16 +13,12 @@ body {
 }
 #main{
 	width: 800px;
-	border: 0px;
-	align-content: center ;
-	border-spacing: 0px;
-}
+	margin : 20px auto;
+	}
 
 #header{
 	height: 90px;
-	background-image: url(images/header.png);
-	background-repeat: no-repeat;
-	background-color: #2a79bc;
+	background: #2a79bc url("images/header.png") no-repeat; 
 }
 
 #header h1{
@@ -36,74 +38,69 @@ body {
  }
 
 a {
-text-decoration: underline;
- color: #2a52be;
+text-decoration: none;
+ color: #4682B4;
+}
+
+a:hover{
+	text-decoration: underline;
+color: #2a52be;
 }
 #left{
-	 width: 180px;
+ width: 180px;
  padding-top: 10px;
- padding-bottom: 10px;
- vertical-align: top;
+ float: left;
 }
 
 #left h2{
-	height: 30px;
+	
+ margin: 10px, 0, 0, 0;
+ height: 30px;
  line-height: 30px;
- background-color: #2a79bc;
- background-image: url(images/menu.png);
- background-repeat: no-repeat;
+ padding-left: 10px;
+ background: #2a79bc url(images/menu.png) no-repeat;
  color: #fff;
  font-size: 13px;
- text-align: center;
 }
 
   #left ul {
+ padding: 10px 0 15px 10px;
  list-style-type: square;
  color: #2979BD;
  padding-left: 30px;
- font-size: 13px;
- }
-
- #left ul li a {
+}
+#left ul li a {
  text-decoration: none;
  font-weight: 600;
- }
+}
+#left ul li a:hover {
+}
 
- #left ul li a:hover {
- }
 
- #left form {
- color: #2979BD;
- font-size: 13px;
- font-weight: 600;
- padding-left: 10px;
- }
-
- #content {
+#right {
+ float: right;
+ width: 590px;
  text-align: justify;
- padding-top: 15px;
- padding-left: 10px;
- padding-bottom: 10px;
- padding-right: 5px;
- vertical-align: top;
- }
- #content h2 {
+ padding-top: 5px;
+}
+#right h2 {
  font-size: 18px;
  font-weight: 100;
+ padding: 15px 0 7px 0;
+}
+#right h2 a {
+text-decoration: none;
+}
+#right h2 a:hover {
+}
 
- }
- #content h2 a {
- text-decoration: none;
- }
- #content h2 a:hover {
- }
  #footer {
- text-align: center;
+  text-align: center;
  font-size: 11px;
  color: #0047ab;
  margin-top: 20px;
  border-top: 1px dotted #0047ab;
- }
- #footer a {
+}
+#footer a {
  color: #0047ab;
- }
+}
