@@ -21,7 +21,7 @@ function newForm(){
 
 			win.document.write('<p align = "center"><a href = "https://www.dstu.education/"'+' target = "_blank">ДонГТУ</a>');
 
-			win.document.write('<p align = "center"><input type="button" onclick="openner.exit(openner.win);" name="closeButton" value="Закрыть"></input></p>');
+			win.document.write('<p align = "center"><input type="button"' + ' onclick="opener.exit(opener.win);" name="closeButton" value="Закрыть"></input></p>');
 
 		}
 
