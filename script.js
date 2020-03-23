@@ -12,10 +12,10 @@ function newForm(){
 			var x, y;
 			var win; 
 
-			x = (window.outerWidth - 300) / 2 + window.screenX;
-			y = (window.outerHeight - 200) / 2 + window.screenY;
+			x = (window.outerWidth - 350) / 2 + window.screenX;
+			y = (window.outerHeight - 270) / 2 + window.screenY;
 
-			win = window.open("", "w1", "height = 200, width = 300 , left ="+ x +" ,top =" +y);
+			win = window.open("", "w1", "height = 270, width = 350 , left ="+ x +" ,top =" +y);
 			win.document.write("<h2>Заголовок текста</h2>");
 			win.document.write("<p>javascript — это круто!</p>");
 
