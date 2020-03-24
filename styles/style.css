@@ -110,3 +110,14 @@ text-decoration: none;
 #footer a {
  color: #0047ab;
 }
+
+
+div.field {
+  padding-bottom: 5px;
+}
+div.field label {
+  display: block;
+  float: left;
+  width: 70px;
+  height: 15px;
+}
