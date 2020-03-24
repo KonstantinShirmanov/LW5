@@ -113,11 +113,11 @@ text-decoration: none;
 
 
 div.field {
-  padding-bottom: 5px;
+  padding-bottom: 2px;
 }
 div.field label {
   display: block;
   float: left;
-  width: 70px;
+  width: 200px;
   height: 15px;
 }
