@@ -113,31 +113,30 @@ text-decoration: none;
 
 
 
-.summatorForm {
-  display: table;
-  padding: 10px;
-  width: 300px;
+.field {
+  display: flex;
+  justify-content: center;
+}
+
+.field label, .field input {
+  margin: 4px;
+}
+
+form {
+  width: 360px;
+  padding: 8px 20px 8px 8px;
   background: #ceffcb;
 }
 
-.field {
-  display: table-row;
-  height: 15px;
-}
-
-.field label,
-.field input,
-.field>div {
-  display: table-cell;
-  margin-bottom: 10px;
-}
-
 .field label {
-  text-align: left;
+   flex: 1 1 0;
+ font-weight: bold;
 }
 
-.field>div:nth-child(1) {
-  text-align: center;
+.field input[type="number"] {
+  padding: 2px;
+  width: 140px;
+  box-shadow: 0.5px 0.5px 1px 0.5px rgba(0,0,0,0.6) inset;
 }
 
 .field input[type="button"] {
