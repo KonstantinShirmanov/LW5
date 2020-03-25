@@ -119,7 +119,7 @@ div.field {
 }
 div.field label {
   float: left;
-  padding-left: 100px;
+  padding-right: 100px;
   height: 15px;
 }
 
