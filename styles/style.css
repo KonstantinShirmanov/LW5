@@ -132,11 +132,11 @@ div.field {
 }
  
  #close{
- 	padding-left: 100px;
+ 	margin-right: : 100px;
  	float: right; 
  }
 
  #result {
- 	padding-right: 100px;
+ 	margin-left:  100px;
  	float: left;
   }
