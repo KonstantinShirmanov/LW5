@@ -122,8 +122,11 @@ div.field label {
   height: 15px;
 }
 
-div.field input{
+#close{
 	float: right;
-	position: absolute;
 	padding-right: 50px; 
+}
+
+#result {
+
 }
