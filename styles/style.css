@@ -114,19 +114,18 @@ text-decoration: none;
 
 
 
-div.field {
-  overflow: hidden;
+  div.field {
   padding-bottom: 20px;
   margin: 0 auto;
   position: relative;
-}
-div.field label {
+  }
+  div.field label {
   float: left;
-  width: 150px;
-  text-align: left;
-}
+  height: 15px;
+  }
 
-div.field input{
-  float: left;
+  div.field input{
+  float: right;
+  position: absolute;
   padding-left: 50px; 
-}
+  }
