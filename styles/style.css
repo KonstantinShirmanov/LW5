@@ -117,15 +117,14 @@ div.field {
   position: relative;
 }
 div.field label {
-  display: block;
   float: left;
-  width: 30px;
+  width: 25%;
   height: 15px;
 }
 
 div.field button {
 	position: relative;
 	left: 50%;
-	transform: translate(-50%, 0);
+	transform: translate(+50%, 0);
 
 }
