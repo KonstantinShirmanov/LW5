@@ -124,7 +124,8 @@ div.field label {
 
 div.field button {
 	position: relative;
-	left: 100%;
+	left: 50%;
+	padding-right: 50%;
 	transform: translate(150%, 0);
 
 }
