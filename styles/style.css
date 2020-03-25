@@ -121,3 +121,9 @@ div.field label {
   width: 30px;
   height: 15px;
 }
+
+div.field button {
+	display: block;
+	float: left;
+	align-self: center;
+}
