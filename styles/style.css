@@ -123,7 +123,6 @@ text-decoration: none;
       }
 
       div.field input{
-	  float: right;
 	  position: absolute;
 	  padding-right: 50px; 
 }
