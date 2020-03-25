@@ -123,6 +123,7 @@ text-decoration: none;
   }
 
   div.field input{
-  size: 200px 15px;
+  position: relative;
+  width: 75%;
   align-self: right;
 }
