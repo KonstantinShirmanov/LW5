@@ -123,12 +123,7 @@ div.field {
       margin: 0 auto;
       position: relative;
       }
-      div.field label {
-      float: left;
-      height: 15px;
-      }
-
-      div.field input{
+    div.field input{
   	float: left;
   	padding-left: 50px; 
 }
