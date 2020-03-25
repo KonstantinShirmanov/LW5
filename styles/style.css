@@ -124,8 +124,9 @@ div.field {
 
       div.field input{
 	  float: right;
-	  position: absolute;
-	  padding-left: 50px; 
+	  position: relative;
+	  padding-left: 50px;
+	  padding-right:50px; 
 }
  
  #close{
