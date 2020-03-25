@@ -124,17 +124,17 @@ div.field {
 
       div.field input{
 	  float: right;
-	  position: absolute;
+	  position: relative;
 	  margin-left: 10px;
 	  margin-right:10px; 
 }
  
  #close{
- 	padding-left: 50px;
+ 	padding-left: 100px;
  	float: right; 
  }
 
  #result {
- 	padding-right: 50px;
+ 	padding-right: 100px;
  	float: left;
   }
