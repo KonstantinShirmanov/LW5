@@ -124,7 +124,5 @@ text-decoration: none;
 
   div.field input{
   float: right;
-  position: absolute;
-
-  width: 2000px;
+  position: relative;
 }
