@@ -112,19 +112,19 @@ text-decoration: none;
 }
 
 
-  div.field {
-  padding-bottom: 20px;
-  margin: 0 auto;
-  position: relative;
-  
-  }
-  div.field label {
-  float: left;
-  height: 15px;
-  }
+div.field {
+      padding-bottom: 20px;
+      margin: 0 auto;
+      position: relative;
+      }
+      div.field label {
+      float: left;
+      height: 15px;
+      }
 
-  div.field input{
-  position: absolute;
-  float: right;
- 
+      div.field input{
+	  float: right;
+	  position: absolute;
+	  padding-right: 50px; 
 }
+ 
