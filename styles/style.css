@@ -114,7 +114,7 @@ text-decoration: none;
 
 div.field {
   padding-bottom: 20px;
-  
+  margin: 0 auto;
 }
 div.field label {
   float: left;
@@ -123,10 +123,6 @@ div.field label {
 }
 
 div.field button {
-	position: relative;
-	left: 50%;
-	padding-right: 50%;
-	margin-right: 100%;
-	transform: translate(150%, 0);
+	
 
 }
