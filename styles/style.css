@@ -119,11 +119,10 @@ div.field {
 }
 div.field label {
   float: left;
-  width: 100px;
+  padding-left: 100px;
   height: 15px;
 }
 
 div.field button {
 	
-
 }
