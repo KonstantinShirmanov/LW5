@@ -129,9 +129,11 @@ div.field {
 }
  
  #close{
- 	padding-left: 50px; 
+ 	padding-left: 50px;
+ 	float: right; 
  }
 
  #result {
  	padding-right: 50px;
+ 	float: left;
   }
