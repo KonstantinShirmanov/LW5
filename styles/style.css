@@ -113,7 +113,7 @@ text-decoration: none;
 
 
 
-..field {
+.field {
   display: flex;
   justify-content: center;
 }
@@ -122,10 +122,10 @@ text-decoration: none;
   margin: 4px;
 }
 
-form {
+.sumForm {
   width: 360px;
   padding: 8px 20px 8px 8px;
-  background: #ceffcb;
+  background: blue;
 }
 
 .field label {
