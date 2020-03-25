@@ -112,6 +112,10 @@ text-decoration: none;
 }
 
 
+form {
+	width: 500px;
+}
+
 div.field {
 
 	  padding-top: 20px; 
