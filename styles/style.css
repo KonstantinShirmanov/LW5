@@ -112,28 +112,21 @@ text-decoration: none;
 }
 
 
-form {
-	width: 500px;
-}
+
 
 div.field {
-
-	  padding-top: 20px; 
-      padding-bottom: 20px;
-      margin: 0 auto;
-      position: relative;
-      }
-    div.field input{
-  	float: left;
-  	padding-left: 50px; 
+  overflow: hidden;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  position: relative;
 }
- 
- #close{
- 	margin-right: : 10px;
- 	float: right; 
- }
+div.field label {
+  float: left;
+  width: 150px;
+  text-align: left;
+}
 
- #result {
- 	margin-left:  10px;
- 	float: left;
-  }
+div.field input{
+  float: left;
+  padding-left: 50px; 
+}
