@@ -123,9 +123,7 @@ text-decoration: none;
       height: 15px;
       }
 
-      div.field input{
-	
-	  position: relative;
-
-	  padding-left: 50%;
+      #result {
+      	padding-left: 100px;
+      }
 }
