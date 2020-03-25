@@ -124,6 +124,7 @@ text-decoration: none;
   }
 
   div.field input{
+  position: absolute;
   float: right;
  
 }
