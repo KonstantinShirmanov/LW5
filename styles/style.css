@@ -124,7 +124,7 @@ div.field label {
 
 div.field input{
 	float: right;
-	position: absolute;
+	position: relative;
 	padding-right: 50%; 
 }
 
