@@ -115,10 +115,11 @@ text-decoration: none;
   div.field {
       padding-bottom: 20px;
       margin: 0 auto;
-      position: relative;
+  
       }
       div.field label {
       float: left;
+      position: relative;
       height: 15px;
       }
 
