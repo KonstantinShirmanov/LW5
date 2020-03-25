@@ -126,7 +126,7 @@ div.field button {
 	position: relative;
 	left: 50%;
 	padding-right: 50%;
-	margin-right: 50%;
+	margin-right: 100%;
 	transform: translate(150%, 0);
 
 }
