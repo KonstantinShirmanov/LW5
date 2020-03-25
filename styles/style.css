@@ -124,6 +124,8 @@ div.field label {
 
 div.field button {
 	display: block;
-	float: left;
-	align-self: center;
+	position: relative;
+	left: 50%;
+	transform: translate(50%, 0);
+
 }
