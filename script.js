@@ -35,12 +35,12 @@ function exit (){
 
 function summator (){
 
-	var firstValue = getElementById("firstNumber").value;
-	var secondValue = getElementById("secondNumber").value;
+	var firstValue = document.getElementById("firstNumber").value;
+	var secondValue = document.getElementById("secondNumber").value;
 
 	var sumOutput = 0;
 
 	sumOutput = firstValue + secondValue;
 
-	getElementById("sum").value = sumOutput; 
+	document.getElementById("sum").value = sumOutput; 
 }
