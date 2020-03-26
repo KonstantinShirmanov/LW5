@@ -145,13 +145,21 @@ text-decoration: none;
   border: none;
  }
 
+
+ .column {
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: space-around;
+ 	width: 100px;
+ 	margin-bottom: -5px;
+
+ 	padding-bottom: 20px; 
+ }
  .column input [type ="button"]{
- 	display: table-column;
- 	padding: 3px 10px;
-  	margin-right: 40px;
-  	box-shadow: 1px 1px 1px 1px rgba(0 0 0 0.6);
-  	border: none;
-	
-	width: 25%;
+
+ 	flex-flow: column-wrap; 
+ 	margin-left: 5px;
+ 	margin-bottom: 5px;
+
  }
 
