@@ -38,9 +38,9 @@ function sum (){
 	var firstNumber = 0 +document.sumForm.firstNumber.value;
 	var secondNumber = 0 +document.sumForm.secondNumber.value;
 
-	var sum = 0;
+	var suminput = 0;
 
-	sum = firstNumber + secondNumber;
+	suminput = firstNumber + secondNumber;
 
-	document.sumForm.sum.value = sum; 
+	document.sumForm.sum.value = suminput; 
 }
