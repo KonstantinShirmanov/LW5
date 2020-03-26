@@ -40,7 +40,7 @@ function summator (){
 
 	var sumOutput = 0;
 
-	sumOutput = firstValue + secondValue;
+	sumOutput = +firstValue + +secondValue;
 
-	document.getElementById("sum").value = sumOutput; 
+	document.getElementById("sum").value = +sumOutput; 
 }
