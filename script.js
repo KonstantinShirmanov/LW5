@@ -34,5 +34,5 @@ function exit (){
 }
 
 function sum (){
-	document.sumForm.sum.value = (document.sumForm.firstNumber.value + document.sumForm.secondNumber.value); 
+	document.sumForm.sum.value = document.sumForm.firstNumber.value + document.sumForm.secondNumber.value; 
 }
