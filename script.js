@@ -38,9 +38,9 @@ function summator (){
 	var firstValue = getElementById("firstNumber").value;
 	var secondValue = getElementById("secondNumber").value;
 
-	var sumoutput = 0;
+	var sumOutput = 0;
 
-	sumoutput = firstValue + secondValue;
+	sumOutput = firstValue + secondValue;
 
-	getElementById("sum").value = sumoutput; 
+	getElementById("sum").value = sumOutput; 
 }
