@@ -29,3 +29,6 @@ function exit (param){
 			param.alert('Внимание окно будет закрыто!');
 			param.close();
 		}
+function exit (){
+	if (confirm("Закрыть окно?")) window.close();
+}
