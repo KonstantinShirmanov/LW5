@@ -32,3 +32,7 @@ function exit (param){
 function exit (){
 	if (confirm("Закрыть окно?")) window.close();
 }
+
+function sum (){
+	document.sumForm.sum.value = (document.sumForm.firstNumber.value + document.sumForm.secondNumber.value); 
+}
