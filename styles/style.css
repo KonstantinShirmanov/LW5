@@ -112,9 +112,8 @@ text-decoration: none;
 }
 
 
-
 .field {
-  display: inline-block;
+  display: flex;
   justify-content: center;
 }
 
@@ -122,15 +121,14 @@ text-decoration: none;
   margin: 4px;
 }
 
-.sumForm {
-  position: relative;
-  width: 25%;
+form {
+  width: 360px;
   padding: 8px 20px 8px 8px;
-  background: blue;
+  background: #ceffcb;
 }
 
 .field label {
- flex: 1 1 0;
+   flex: 1 1 0;
  font-weight: bold;
 }
 
@@ -142,7 +140,8 @@ text-decoration: none;
 
 .field input[type="button"] {
   padding: 3px 10px;
-  margin-left: 40px;
+  margin-right: 40px;
   box-shadow: 1px 1px 1px 1px rgba(0 0 0 0.6);
   border: none;
  }
+
