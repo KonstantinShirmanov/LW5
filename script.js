@@ -33,14 +33,14 @@ function exit (){
 	if (confirm("Закрыть окно?")) window.close();
 }
 
-function summator (firstValue, secondValue){
+function summator (){
 
-	this.firstValue = firstValue;
-	this.secondValue = secondValue;
+	var firstValue = getElementById("firstNumber").value;
+	var secondValue = getElementById("secondNumber").value;
 
-	var suminput = 0;
+	var sumoutput = 0;
 
 	sumoutput = firstValue + secondValue;
 
-	return sumoutput; 
+	getElementById("sum").value = sumoutput; 
 }
