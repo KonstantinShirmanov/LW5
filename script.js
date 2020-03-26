@@ -35,12 +35,12 @@ function exit (){
 
 function sum (){
 
-	var firstNumber = 0 +document.sumForm.firstNumber.value;
-	var secondNumber = 0 +document.sumForm.secondNumber.value;
+	var firstValue = 0 +document.sumForm.firstNumber.value;
+	var secondValue = 0 +document.sumForm.secondNumber.value;
 
 	var suminput = 0;
 
-	suminput = firstNumber + secondNumber;
+	sumoutput = firstValue + secondValue;
 
-	document.sumForm.sum.value = suminput; 
+	document.sumForm.sum.value = sumoutput; 
 }
