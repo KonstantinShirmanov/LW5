@@ -155,15 +155,19 @@ text-decoration: none;
  }
 
 .button-table label {
-	display: inline-block;
 	grid-row-start: 1;
 
 }
 
-.field label{
-  padding-left: 50px;
-  
- }
+.dataPanel {
+	display: flex;
+}
 
+
+.dataPanel label{
+	justify-content: center;
+	width: 25px;
+	flex: 1 0 0 1
+}
  
 
