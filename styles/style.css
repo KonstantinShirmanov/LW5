@@ -146,24 +146,6 @@ text-decoration: none;
  }
 
 
- .button-table {
- 	display: grid;
- 	grid-template-columns: 1fr 1fr 1fr 1fr; 
- 	grid-auto-flow: column;
- 	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
- 	grid-gap: 10px;
- }
-
-.button-table label {
-	grid-row-start: 1;
-
-}
-
-.dataPanel {
-	display: flex;
-}
-
-
 .dataPanel label{
 	justify-content: center;
 	width: 25px;

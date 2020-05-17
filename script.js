@@ -44,3 +44,107 @@ function summator (){
 
 	document.getElementById("sum").value = +sumOutput; 
 }
+
+
+function plus (){
+	var firstValue = document.getElementById("firstNumber").value;
+	var secondValue = document.getElementById("secondNumber").value;
+
+	var output = 0; 
+	output = +firstValue + +secondValue;
+
+	document.getElementById("sum").value = +output; 
+}
+
+
+function minus (){
+	var firstValue = document.getElementById("firstNumber").value;
+	var secondValue = document.getElementById("secondNumber").value;
+
+	var output = 0; 
+	output = +firstValue - +secondValue;
+
+	document.getElementById("sum").value = +output; 
+
+	function multiply (){
+	
+	var firstValue = document.getElementById("firstNumber").value;
+	var secondValue = document.getElementById("secondNumber").value;
+
+	var output = 0; 
+	output = +firstValue * +secondValue;
+
+	document.getElementById("sum").value = +output; 
+}
+
+
+function div (){
+
+
+
+	var firstValue = document.getElementById("firstNumber").value;
+	var secondValue = document.getElementById("secondNumber").value;
+
+	if (secondValue !== 0){
+
+	var output = 0; 
+	output = +firstValue / +secondValue;
+
+	document.getElementById("sum").value = +output; 
+	}
+	else {
+		alert ("Делить на 0 нельзя!")ж
+	}
+}
+
+	var firstValue = document.getElementById("firstNumber").value;
+	var secondValue = document.getElementById("secondNumber").value;
+
+	var output = 0; 
+	output = +firstValue + +secondValue;
+
+	document.getElementById("sum").value = +output; 
+}
+
+
+function pow (){
+	var firstValue = document.getElementById("firstNumber").value;
+	var secondValue = document.getElementById("secondNumber").value;
+
+	var output = 0; 
+	output = Math.pow (firstValue, secondValue);
+
+	document.getElementById("sum").value = +output; 
+
+}
+function abs (){
+	var firstValue = document.getElementById("firstNumber").value;
+	var secondValue = document.getElementById("secondNumber").value;
+
+	var output = 0; 
+	output = +Math.abs (firstValue);
+
+	document.getElementById("sum").value = +output; 
+
+
+}
+function sqrt (){
+
+	var firstValue = document.getElementById("firstNumber").value;
+	var secondValue = document.getElementById("secondNumber").value;
+	if (firstValue == undefined && Math.sign(secondValue)== 1){
+		var output =0;
+		output = Math.sqrt(secondValue);
+		document.getElementById("sum").value = +output;
+	}
+	else if (secondValue == undefined Math.sign(firstValue)== 1){
+		var output =0;
+		output = Math.sqrt(secondValue);
+		document.getElementById("sum").value = +output;
+	}
+
+	else {
+		alert("Нельзя извлечь квадратный корень из отрицательного числа или нуля!")
+	}
+ 
+}
