@@ -160,12 +160,12 @@ function ln (){
 
 	var firstValue = document.getElementById("firstNumber").value;
 	var secondValue = document.getElementById("secondNumber").value;
-	if (firstValue == undefined && Math.sign(secondValue)==1 ||(firstValue == undefined && Math.sign(secondValue)==0)){
+	if (firstValue == null && Math.sign(secondValue)==1 ||(firstValue == undefined && Math.sign(secondValue)==0)){
 		var output =0;
 		output = Math.log(secondValue);
 		document.getElementById("sum").value = +output;
 	}
-	else if (secondValue == undefined && Math.sign(firstValue)== 1){
+	else if (secondValue == null && Math.sign(firstValue)== 1){
 		var output =0;
 		output = Math.log(secondValue);
 		document.getElementById("sum").value = +output;
