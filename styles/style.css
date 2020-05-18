@@ -149,9 +149,6 @@ text-decoration: none;
   display: grid;
   grid-template-columns: repeat(4,1fr);
   grid-auto-flow: column;
-  border: 12px;
-  border: solid;
-  border-color: red;
   grid-template-rows: repeat(6,1fr);
   grid-gap: 10px;
 }
