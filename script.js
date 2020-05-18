@@ -129,7 +129,7 @@ function abs (){
 
 
 }
-/*
+
 function sqrt (){
 
 	var firstValue = document.getElementById("firstNumber").value;
