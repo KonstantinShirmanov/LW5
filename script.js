@@ -43,7 +43,7 @@ function summator (){
 	sumOutput = +firstValue + +secondValue;
 
 	document.getElementById("sum").value = +sumOutput; 
-<<<<<<< HEAD
+
 }
 
 
@@ -129,6 +129,7 @@ function abs (){
 
 
 }
+/*
 function sqrt (){
 
 	var firstValue = document.getElementById("firstNumber").value;
