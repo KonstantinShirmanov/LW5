@@ -94,7 +94,7 @@ function div (){
 	document.getElementById("sum").value = +output; 
 	}
 	else {
-		alert ("Делить на 0 нельзя!")ж
+		alert ("Делить на 0 нельзя!");
 	}
 }
 
