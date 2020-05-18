@@ -150,7 +150,8 @@ function sqrt (){
 	}
 }
 
-function exp (){
+function exp (){ 
+/**/
 document.getElementById("firstNumber").value = Math.E()
 var firstValue = document.getElementById("firstNumber").value;
 var secondValue = document.getElementById("secondNumber").value;
