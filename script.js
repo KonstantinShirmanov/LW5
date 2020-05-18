@@ -43,6 +43,7 @@ function summator (){
 	sumOutput = +firstValue + +secondValue;
 
 	document.getElementById("sum").value = +sumOutput; 
+<<<<<<< HEAD
 }
 
 
@@ -174,3 +175,6 @@ function ln (){
 	else {
 		alert("Нельзя вычислить натуральный алгоритм двух чисел,отрицательного числа или нуля!");
 }
+=======
+}
+>>>>>>> parent of 799d2f4... commit
