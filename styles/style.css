@@ -146,10 +146,29 @@ text-decoration: none;
  }
 
 
+<<<<<<< HEAD
 .dataPanel label{
 	justify-content: center;
 	width: 25px;
 	flex: 1 0 0 1;
 }
  
+=======
+ .column {
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: space-around;
+ 	width: 100px;
+ 	margin-bottom: -5px;
+
+ 	padding-bottom: 20px; 
+ }
+ .column input [type ="button"]{
+
+ 	flex-flow: column-wrap; 
+ 	margin-left: 5px;
+ 	margin-bottom: 5px;
+
+ }
+>>>>>>> parent of 80426db... commit
 
