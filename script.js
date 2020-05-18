@@ -54,7 +54,7 @@ function plus (){
 	var output = 0; 
 	output = +firstValue + +secondValue;
 
-	document.getElementById("sum").value = +output; 
+	document.getElementById("result").value = +output; 
 }
 
 
@@ -65,7 +65,7 @@ function minus (){
 	var output = 0; 
 	output = +firstValue - +secondValue;
 
-	document.getElementById("sum").value = +output; 
+	document.getElementById("result").value = +output; 
 
 	function multiply (){
 	
@@ -75,7 +75,7 @@ function minus (){
 	var output = 0; 
 	output = +firstValue * +secondValue;
 
-	document.getElementById("sum").value = +output; 
+	document.getElementById("result").value = +output; 
 }
 
 
@@ -91,7 +91,7 @@ function div (){
 	var output = 0; 
 	output = +firstValue / +secondValue;
 
-	document.getElementById("sum").value = +output; 
+	document.getElementById("result").value = +output; 
 	}
 	else {
 		alert ("Делить на 0 нельзя!");
@@ -104,7 +104,7 @@ function div (){
 	var output = 0; 
 	output = +firstValue + +secondValue;
 
-	document.getElementById("sum").value = +output; 
+	document.getElementById("result").value = +output; 
 }
 
 
@@ -115,7 +115,7 @@ function pow (){
 	var output = 0; 
 	output = Math.pow (firstValue, secondValue);
 
-	document.getElementById("sum").value = +output; 
+	document.getElementById("result").value = +output; 
 
 }
 function abs (){
@@ -125,7 +125,7 @@ function abs (){
 	var output = 0; 
 	output = +Math.abs (firstValue);
 
-	document.getElementById("sum").value = +output; 
+	document.getElementById("result").value = +output; 
 
 
 }
@@ -137,12 +137,12 @@ function sqrt (){
 	if (firstValue == undefined && Math.sign(secondValue)== 1){
 		var output =0;
 		output = Math.sqrt(secondValue);
-		document.getElementById("sum").value = +output;
+		document.getElementById("result").value = +output;
 	}
 	else if (secondValue == undefined && Math.sign(firstValue)== 1){
 		var output =0;
 		output = Math.sqrt(secondValue);
-		document.getElementById("sum").value = +output;
+		document.getElementById("result").value = +output;
 	}
 
 	else {
@@ -157,7 +157,7 @@ var firstValue = document.getElementById("firstNumber").value;
 var secondValue = document.getElementById("secondNumber").value;
 	
 var output = Math.pow(+firstValue, +secondValue);
-document.getElementById("sum").value = +output;
+document.getElementById("result").value = +output;
 }
 
 function ln (){
@@ -167,12 +167,12 @@ function ln (){
 	if (firstValue == null && Math.sign(secondValue)==1 ||(firstValue == undefined && Math.sign(secondValue)==0)){
 		var output =0;
 		output = Math.log(secondValue);
-		document.getElementById("sum").value = +output;
+		document.getElementById("result").value = +output;
 	}
 	else if (secondValue == null && Math.sign(firstValue)== 1){
 		var output =0;
 		output = Math.log(secondValue);
-		document.getElementById("sum").value = +output;
+		document.getElementById("result").value = +output;
 	}
 
 	else {
