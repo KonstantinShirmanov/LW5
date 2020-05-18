@@ -79,7 +79,7 @@ function minus (){
 }
 
 
-function div (){
+function divide (){
 
 
 
