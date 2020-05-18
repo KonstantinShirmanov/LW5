@@ -152,7 +152,7 @@ function sqrt (){
 
 function exp (){ 
 /**/
-document.getElementById("firstNumber").value = Math.E;
+document.getElementById("firstNumber").value = Math.EXP;
 var firstValue = document.getElementById("firstNumber").value;
 var secondValue = document.getElementById("secondNumber").value;
 	
