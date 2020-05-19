@@ -70,3 +70,17 @@ function tg(){
 
 	document.getElementById("result").value = output; 
 }
+
+function ctg (){
+
+	var firstValue = document.getElementById("firstNumber").value;
+	var secondValue = document.getElementById("secondNumber").value;
+	var output =0;
+
+	if (firstValue == 0 && secondValue != 0) output = (1/Math.tan(secondValue));
+    else if (secondValue == 0 && firstValue != 0) output = (1/Math.tan(firstValue));
+    else if (firstValue == 0 && secondValue == 0) alert("Котангенса нуля не существует!");
+    else alert("Заполните только одно поле!");
+
+    document.getElementById("result").value = output;
+}
