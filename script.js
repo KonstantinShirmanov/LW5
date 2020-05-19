@@ -238,24 +238,11 @@ function oneOperand (clickedButton){
 
 	var operation = function(){};
 
-	if (clickedButton.value == "tg"){ 
-		operation = Math.tan;
-		break;
-		}
-	else if (clickedButton.value == "cos"){
-		operation = Math.cos;
-	}
-
-	else if (clickedButton.value == "sin"){
-		operation = Math.sin;
-	}
-
-	else if (clickedButton.value == "round"){
-		operation = Math.cos;
-	}
-
-	else if (clickedButton.value == "floor")
-		operation = Math.floor;
+	if (clickedButton.value == "tg")         operation = Math.tan;
+	else if (clickedButton.value == "cos")   operation = Math.cos;
+	else if (clickedButton.value == "sin")   operation = Math.sin;
+	else if (clickedButton.value == "round") operation = Math.cos;
+	else if (clickedButton.value == "floor") operation = Math.floor;
 
 if (firstValue == 0 && secondValue != 0) output = operation(secondValue);
     else if (secondValue == 0 && firstValue != 0) output = operation(firstValue);
