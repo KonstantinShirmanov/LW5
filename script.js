@@ -244,23 +244,18 @@ function oneOperand (clickedButton){
 		}
 	else if (clickedButton.value == "cos"){
 		operation = Math.cos;
-		break;
 	}
 
 	else if (clickedButton.value == "sin"){
 		operation = Math.sin;
-		break;
 	}
 
 	else if (clickedButton.value == "round"){
 		operation = Math.cos;
-		break;
 	}
 
-	else if (clickedButton.value == "floor"){
+	else if (clickedButton.value == "floor")
 		operation = Math.floor;
-		break;
-}
 
 if (firstValue == 0 && secondValue != 0) output = operation(secondValue);
     else if (secondValue == 0 && firstValue != 0) output = operation(firstValue);
