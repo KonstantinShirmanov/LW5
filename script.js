@@ -266,6 +266,8 @@ function ctg (){
     else if (secondValue == 0 && firstValue != 0) output = Math.cos(secondValue)/Math.sin(secondValue);
     else if (firstValue == 0 && secondValue == 0) alert("Котангенса нуля не существует!");
     else alert("Заполните только одно поле!");
+
+    document.getElementById("result").value = output;
 }
 
 
