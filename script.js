@@ -191,5 +191,7 @@ function sin (){
 
 	if (firstValue ==0 && secondValue ==0) output =Math.sin(0);
 
-	else alert("Заполните только одно поле!"); 
+	else alert("Заполните только одно поле!");
+
+	document.getElementById("result").value = output; 
 }
