@@ -47,6 +47,7 @@ function summator (){
 }
 
 
+
 function plus (){
 	var firstValue = document.getElementById("firstNumber").value;
 	var secondValue = document.getElementById("secondNumber").value;
@@ -195,3 +196,79 @@ function sin (){
 
 	document.getElementById("result").value = output; 
 }
+
+function cos (){
+	
+	var firstValue = document.getElementById("firstNumber").value;
+	var secondValue = document.getElementById("secondNumber").value;
+
+	var output =0;
+
+
+    if (firstValue == 0 && secondValue !=0) output = Math.cos(secondValue);
+	else if (secondValue == 0 && firstValue !=0) output = Math.cos(firstValue);
+
+	else if (firstValue ==0 && secondValue ==0) output =Math.cos(0);
+
+	else alert("Заполните только одно поле!");
+
+	document.getElementById("result").value = output; 
+}
+
+function tg(){
+
+
+	var firstValue = document.getElementById("firstNumber").value;
+	var secondValue = document.getElementById("secondNumber").value;
+
+	var output =0;
+
+
+    if (firstValue == 0 && secondValue !=0) output = Math.tan(secondValue);
+	else if (secondValue == 0 && firstValue !=0) output = Math.tan(firstValue);
+
+	else if (firstValue ==0 && secondValue ==0) output =Math.tan(0);
+
+	else alert("Заполните только одно поле!");
+
+	document.getElementById("result").value = output; 
+}
+function oneOperand (clickedButton){
+	var value = clickedButton.value;
+
+	var operation = function(){};
+
+	if (clickedButton.value == "tg"){ 
+		operation = Math.tan;
+		break;
+		}
+	else if (clickedButton.value == "cos"){
+		operation = Math.cos;
+		break;
+	}
+
+	else if (clickedButton.value == "sin"){
+		operation = Math.sin;
+		break;
+	}
+
+	else if (clickedButton.value == "round"){
+		operation = Math.cos;
+		break;
+	}
+
+	else if (clickedButton.value == "floor"){
+		operation = Math.floor;
+		break;
+}
+
+if (firstValue == 0 && secondValue != 0) output = operation(secondValue);
+    else if (secondValue == 0 && firstValue != 0) output = operation(firstValue);
+    else if (firstValue == 0 && secondValue == 0) output = operation(0);
+    else alert("Заполните только одно поле!");
+
+    document.getElementById("result").value = output; 
+}
+
+
+
