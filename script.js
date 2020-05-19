@@ -262,8 +262,8 @@ function ctg (){
 	var secondValue = document.getElementById("secondNumber").value;
 	var output =0;
 
-	if (firstValue == 0 && secondValue != 0) output = Math.cos(secondValue)/Math.sin(secondValue);
-    else if (secondValue == 0 && firstValue != 0) output = Math.cos(secondValue)/Math.sin(secondValue);
+	if (firstValue == 0 && secondValue != 0) output = (Math.cos(secondValue)/Math.sin(secondValue));
+    else if (secondValue == 0 && firstValue != 0) output = (Math.cos(secondValue)/Math.sin(secondValue));
     else if (firstValue == 0 && secondValue == 0) alert("Котангенса нуля не существует!");
     else alert("Заполните только одно поле!");
 
