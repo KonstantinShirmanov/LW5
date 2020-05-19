@@ -248,17 +248,19 @@ function oneOperand (clickedButton){
 	else if (clickedButton.value =="abs")    operation = Math.abs;
 	else if (clickedButton.value =="ln")     operation = Math.log;
 
-	else if (clickedButton.value =="ctg"){
-		output = (oneOperand("sin")/oneOperand("cos"));
-		document.getElementById("result").value = output; 
-	}
-
 if (firstValue == 0 && secondValue != 0) output = operation(secondValue);
     else if (secondValue == 0 && firstValue != 0) output = operation(firstValue);
     else if (firstValue == 0 && secondValue == 0) output = operation(0);
     else alert("Заполните только одно поле!");
 
     document.getElementById("result").value = output; 
+}
+
+function ctg (){
+	if (firstValue == 0 && secondValue != 0) output = Math.cos(secondValue)/Math.sin(secondValue);
+    else if (secondValue == 0 && firstValue != 0) output = Math.cos(secondValue)/Math.sin(secondValue);
+    else if (firstValue == 0 && secondValue == 0) alert("Котангенса нуля не существует!");
+    else alert("Заполните только одно поле!");
 }
 
 
