@@ -164,13 +164,12 @@ function ln (){
 
 	var firstValue = document.getElementById("firstNumber").value;
 	var secondValue = document.getElementById("secondNumber").value;
-	if (firstValue == null && Math.sign(secondValue)==1 ||(firstValue == undefined && Math.sign(secondValue)==0)){
-		var output =0;
+	var output =0;
+	if (firstValue == 0 && Math.sign(secondValue)==1 ||(firstValue == 0 && Math.sign(secondValue)==1)){
 		output = Math.log(secondValue);
 		document.getElementById("result").value = +output;
 	}
-	else if (secondValue == null && Math.sign(firstValue)== 1){
-		var output =0;
+	else if (secondValue == 0 && Math.sign(firstValue)== 1){
 		output = Math.log(secondValue);
 		document.getElementById("result").value = +output;
 	}
@@ -178,6 +177,19 @@ function ln (){
 	else {
 		alert("Нельзя вычислить натуральный алгоритм двух чисел,отрицательного числа или нуля!");
 }
-
 }
 
+function sin (){
+
+	var firstValue = document.getElementById("firstNumber").value;
+	var secondValue = document.getElementById("secondNumber").value;
+
+	var output =0;
+
+	if (firstValue == 0 && secondValue !=0) output = Math.sin(secondValue);
+	if (secondValue == 0 && firstValue !=0) output = Math.sin(firstValue);
+
+	if (firstValue ==0 && secondValue ==0) output =Math.sin(0);
+
+	else alert("Заполните только одно поле!"); 
+}
