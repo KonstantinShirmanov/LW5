@@ -134,12 +134,12 @@ function sqrt (){
 
 	var firstValue = document.getElementById("firstNumber").value;
 	var secondValue = document.getElementById("secondNumber").value;
-	if (firstValue == undefined && Math.sign(secondValue)== 1){
+	if (firstValue == 0 && Math.sign(secondValue)== 1){
 		var output =0;
 		output = Math.sqrt(secondValue);
 		document.getElementById("result").value = +output;
 	}
-	else if (secondValue == undefined && Math.sign(firstValue)== 1){
+	else if (secondValue == 0 && Math.sign(firstValue)== 1){
 		var output =0;
 		output = Math.sqrt(secondValue);
 		document.getElementById("result").value = +output;
