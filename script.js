@@ -248,6 +248,11 @@ function oneOperand (clickedButton){
 	else if (clickedButton.value =="abs")    operation = Math.abs;
 	else if (clickedButton.value =="ln")     operation = Math.log;
 
+	else if (clickedButton.value =="ctg"){
+		output = (oneOperand("sin")/oneOperand("cos"));
+		document.getElementById("result").value = output; 
+	} break;
+
 if (firstValue == 0 && secondValue != 0) output = operation(secondValue);
     else if (secondValue == 0 && firstValue != 0) output = operation(firstValue);
     else if (firstValue == 0 && secondValue == 0) output = operation(0);
