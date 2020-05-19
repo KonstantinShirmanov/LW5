@@ -234,7 +234,9 @@ function tg(){
 	document.getElementById("result").value = output; 
 }
 function oneOperand (clickedButton){
-	var value = clickedButton.value;
+
+	var firstValue = document.getElementById("firstNumber").value;
+	var secondValue = document.getElementById("secondNumber").value;
 
 	var operation = function(){};
 
