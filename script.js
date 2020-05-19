@@ -186,10 +186,10 @@ function sin (){
 
 	var output =0;
 
-	if (firstValue == 0 && secondValue !=0) output = Math.sin(secondValue);
-	if (secondValue == 0 && firstValue !=0) output = Math.sin(firstValue);
+    if (firstValue == 0 && secondValue !=0) output = Math.sin(secondValue);
+	else if (secondValue == 0 && firstValue !=0) output = Math.sin(firstValue);
 
-	if (firstValue ==0 && secondValue ==0) output =Math.sin(0);
+	else if (firstValue ==0 && secondValue ==0) output =Math.sin(0);
 
 	else alert("Заполните только одно поле!");
 
