@@ -175,7 +175,7 @@ function oneOperand (clickedButton){
 	else if (clickedButton.value == "floor") operation = Math.floor;
 	else if (clickedButton.value =="abs")    operation = Math.abs;
 	else if (clickedButton.value =="ln")     operation = Math.log;
-	else if (clickedButton.value == "cel")   operation = Math.cell;
+	else if (clickedButton.value == "cel")   operation = Math.ceil;
 
 
 if (firstValue == 0 && secondValue != 0) output = operation(secondValue);
