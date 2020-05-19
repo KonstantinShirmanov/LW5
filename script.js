@@ -251,7 +251,7 @@ function oneOperand (clickedButton){
 	else if (clickedButton.value =="ctg"){
 		output = (oneOperand("sin")/oneOperand("cos"));
 		document.getElementById("result").value = output; 
-	} break;
+	}
 
 if (firstValue == 0 && secondValue != 0) output = operation(secondValue);
     else if (secondValue == 0 && firstValue != 0) output = operation(firstValue);
