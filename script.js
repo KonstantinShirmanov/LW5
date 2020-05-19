@@ -35,8 +35,8 @@ function exit (){
 
 function summator (){
 
-	var firstValue = document.getElementById("firstNumber").value;
-	var secondValue = document.getElementById("secondNumber").value;
+	var firstValue = +document.getElementById("firstNumber").value;
+	var secondValue = +document.getElementById("secondNumber").value;
 
 	var sumOutput = 0;
 
@@ -49,8 +49,8 @@ function summator (){
 
 
 function plus (){
-	var firstValue = document.getElementById("firstNumber").value;
-	var secondValue = document.getElementById("secondNumber").value;
+	var firstValue = +document.getElementById("firstNumber").value;
+	var secondValue = +document.getElementById("secondNumber").value;
 
 	var output = 0; 
 	output = +firstValue + +secondValue;
@@ -60,8 +60,8 @@ function plus (){
 
 
 function minus (){
-	var firstValue = document.getElementById("firstNumber").value;
-	var secondValue = document.getElementById("secondNumber").value;
+	var firstValue = +document.getElementById("firstNumber").value;
+	var secondValue = +document.getElementById("secondNumber").value;
 
 	var output = 0; 
 	output = +firstValue - +secondValue;
@@ -82,10 +82,8 @@ function minus (){
 
 function divide (){
 
-
-
-	var firstValue = document.getElementById("firstNumber").value;
-	var secondValue = document.getElementById("secondNumber").value;
+	var firstValue = +document.getElementById("firstNumber").value;
+	var secondValue = +document.getElementById("secondNumber").value;
 
 	if (secondValue !== 0){
 
@@ -110,8 +108,8 @@ function divide (){
 
 
 function pow (){
-	var firstValue = document.getElementById("firstNumber").value;
-	var secondValue = document.getElementById("secondNumber").value;
+	var firstValue = +document.getElementById("firstNumber").value;
+	var secondValue = +document.getElementById("secondNumber").value;
 
 	var output = 0; 
 	output = Math.pow (firstValue, secondValue);
@@ -133,8 +131,8 @@ function abs (){
 
 function sqrt (){
 
-	var firstValue = document.getElementById("firstNumber").value;
-	var secondValue = document.getElementById("secondNumber").value;
+	var firstValue = +document.getElementById("firstNumber").value;
+	var secondValue = +document.getElementById("secondNumber").value;
 	if (firstValue == 0 && Math.sign(secondValue)== 1){
 		var output =0;
 		output = Math.sqrt(secondValue);
@@ -163,8 +161,10 @@ document.getElementById("result").value = +output;
 
 function oneOperand (clickedButton){
 
-	var firstValue = document.getElementById("firstNumber").value;
-	var secondValue = document.getElementById("secondNumber").value;
+	var firstValue = +document.getElementById("firstNumber").value;
+	var secondValue = +document.getElementById("secondNumber").value;
+
+	var output =0;
 
 	var operation = function(){};
 
@@ -188,8 +188,8 @@ if (firstValue == 0 && secondValue != 0) output = operation(secondValue);
 
 function ctg (){
 
-	var firstValue = document.getElementById("firstNumber").value;
-	var secondValue = document.getElementById("secondNumber").value;
+	var firstValue = +document.getElementById("firstNumber").value;
+	var secondValue = +document.getElementById("secondNumber").value;
 	var output =0;
 
 	if (firstValue == 0 && secondValue != 0) output = (1/Math.tan(secondValue));
@@ -207,16 +207,21 @@ function ce (){
 }
 
 function precision (){
-	var firstValue = document.getElementById("firstNumber").value;
-	var secondValue = document.getElementById("secondNumber").value;
+	var firstValue = +document.getElementById("firstNumber").value;
+	var secondValue = +document.getElementById("secondNumber").value;
+
+	console.log(typeof(firstValue));
+	console.log(typeof(secondValue));
 	var output =0;
 
 	if (!Number.isInteger (firstValue) && Number.isInteger(secondValue)) output = firstValue.toFixed(secondValue);
 	else if (Number.isInteger (firstValue) && !Number.isInteger(secondValue)) output = secondValue.toFixed(firstValue);
 	else if (firstValue == 0 || secondValue == 0) alert("заполните поля для округления");
-	else if (Number.isInteger(firstValue) && isInteger(secondValue)) alert ("Нельзя округлить целое до целого!");
+	else if (Number.isInteger(firstValue) && Number.isInteger(secondValue)) alert ("Нельзя округлить целое до целого!");
 	else if (!Number.isInteger(firstValue) && !Number.isInteger(secondValue)) 
 		 alert("Нельзя округлить число с точностью до дробного!"); 	
+
+	document.getElementById("result").value = output;		
 }
 
 
