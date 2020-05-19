@@ -211,11 +211,12 @@ function precision (){
 	var secondValue = document.getElementById("secondNumber").value;
 	var output =0;
 
-	if (!isInteger (firstValue) && isInteger(secondValue)) output = firstValue.toFixed(secondValue);
-	else if (isInteger (firstValue) && !isInteger(secondValue)) output = secondValue.toFixed(firstValue);
+	if (!Number.isInteger (firstValue) && Number.isInteger(secondValue)) output = firstValue.toFixed(secondValue);
+	else if (Number.isInteger (firstValue) && !Number.isInteger(secondValue)) output = secondValue.toFixed(firstValue);
 	else if (firstValue == 0 || secondValue == 0) alert("заполните поля для округления");
-	else if (isInteger(firstValue) && isInteger(secondValue)) alert ("Нельзя округлить целое до целого!");
-	else if (!isInteger(firstValue) && !isInteger(secondValue)) alert("Нельзя округлить число с точностью до дробного!"); 	
+	else if (Number.isInteger(firstValue) && isInteger(secondValue)) alert ("Нельзя округлить целое до целого!");
+	else if (!Number.isInteger(firstValue) && !Number.isInteger(secondValue)) 
+		 alert("Нельзя округлить число с точностью до дробного!"); 	
 }
 
 
