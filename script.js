@@ -245,6 +245,8 @@ function oneOperand (clickedButton){
 	else if (clickedButton.value == "sin")   operation = Math.sin;
 	else if (clickedButton.value == "round") operation = Math.cos;
 	else if (clickedButton.value == "floor") operation = Math.floor;
+	else if (clickedButton.value =="abs")    operation = Math.abs;
+	else if (clickedButton.value =="ln")     operation = Math.ln;
 
 if (firstValue == 0 && secondValue != 0) output = operation(secondValue);
     else if (secondValue == 0 && firstValue != 0) output = operation(firstValue);
