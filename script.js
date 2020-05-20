@@ -53,7 +53,7 @@ function plus (){
 	var secondValue = +document.getElementById("secondNumber").value;
 
 	var output = 0; 
-	output = +firstValue + +secondValue;
+	output = firstValue + secondValue;
 
 	document.getElementById("result").value = +output; 
 }
@@ -64,17 +64,17 @@ function minus (){
 	var secondValue = +document.getElementById("secondNumber").value;
 
 	var output = 0; 
-	output = (+firstValue) - (-secondValue);
+	output = firstValue - secondValue;
 
 	document.getElementById("result").value = +output; 
 
 	function multiply (){
 	
-	var firstValue = document.getElementById("firstNumber").value;
-	var secondValue = document.getElementById("secondNumber").value;
+	var firstValue = +document.getElementById("firstNumber").value;
+	var secondValue = +document.getElementById("secondNumber").value;
 
 	var output = 0; 
-	output = (+firstValue) * (+secondValue);
+	output = firstValue * secondValue;
 
 	document.getElementById("result").value = +output; 
 }
@@ -88,22 +88,13 @@ function divide (){
 	if (secondValue !== 0){
 
 	var output = 0; 
-	output = +firstValue / +secondValue;
+	output = firstValue / secondValue;
 
 	document.getElementById("result").value = +output; 
 	}
 	else {
 		alert ("Делить на 0 нельзя!");
 	}
-}
-
-	var firstValue = document.getElementById("firstNumber").value;
-	var secondValue = document.getElementById("secondNumber").value;
-
-	var output = 0; 
-	output = +firstValue + +secondValue;
-
-	document.getElementById("result").value = +output; 
 }
 
 
