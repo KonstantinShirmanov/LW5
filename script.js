@@ -64,7 +64,7 @@ function minus (){
 	var secondValue = +document.getElementById("secondNumber").value;
 
 	var output = 0; 
-	output = (+firstValue) - (+secondValue);
+	output = (+firstValue) - (-secondValue);
 
 	document.getElementById("result").value = +output; 
 
