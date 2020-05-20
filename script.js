@@ -64,9 +64,11 @@ function minus (){
 	var secondValue = +document.getElementById("secondNumber").value;
 
 	var output = 0; 
-	output = (+firstValue) - (+secondValue);
+	output = firstValue - secondValue;
 
 	document.getElementById("result").value = +output; 
+
+}
 
 	function multiply (){
 	
@@ -96,6 +98,8 @@ function divide (){
 		alert ("Делить на 0 нельзя!");
 	}
 }
+ 
+
 
 
 function pow (){
