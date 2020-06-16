@@ -217,7 +217,11 @@ function precision (){
 		 alert("Нельзя округлить число с точностью до дробного!"); 	
 
 	document.getElementById("result").value = output;		
+
+	console.log(typeof {})
 }
+
+
 
 
 
